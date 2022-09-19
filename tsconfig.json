@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": ["DOM", "ESNext"],
+    "strict": true,
+    "sourceMap": true,
+    "target": "ESNext",
+    "baseUrl": "./",
+    "paths": {
+      "@": ["src"],
+      "@assets": ["src/assets"],
+      "@components": ["src/components"],
+      "@services": ["src/services"],
+      "@store": ["src/store"],
+      "@types": ["src/types"],
+      "@utils": ["src/utils"],
+      "@views": ["src/views"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "react-boilerplate-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "start": "webpack serve --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neil-b-patel/react-boilerplate-ts.git"
+  },
+  "author": "Neil Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neil-b-patel/react-boilerplate-ts/issues"
+  },
+  "homepage": "https://github.com/neil-b-patel/react-boilerplate-ts#readme",
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "^18.0.6",
+    "core-js": "^3.25.2",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.0.3",
+    "mini-css-extract-plugin": "^2.6.1",
+    "promise-polyfill": "8.2.3",
+    "raf": "^3.4.1",
+    "ts-jest": "^29.0.1",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.3",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
